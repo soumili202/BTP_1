@@ -1,0 +1,40 @@
+{"time":"2024-10-16T05:00:03.130748941+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-16T05:00:03.130763351+05:30","level":"INFO","msg":"created symlink","path":"/home/soumili202/Desktop/BTP/wandb/run-20241016_045958-rv7u700w/logs/debug-core.log"}
+{"time":"2024-10-16T05:00:03.130841112+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-16T05:00:03.133299085+05:30","level":"INFO","msg":"created new stream","id":"rv7u700w"}
+{"time":"2024-10-16T05:00:03.13333657+05:30","level":"INFO","msg":"stream: started","id":"rv7u700w"}
+{"time":"2024-10-16T05:00:03.133347188+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"rv7u700w"}}
+{"time":"2024-10-16T05:00:03.133360096+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"rv7u700w"}}
+{"time":"2024-10-16T05:00:03.133362939+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"rv7u700w"}}
+{"time":"2024-10-16T05:00:03.651834611+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-16T05:00:03.652185034+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-16T05:00:03.652198432+05:30","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2024-10-16T05:00:03.652226872+05:30","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2024-10-16T05:00:43.790412956+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:01:51.667004881+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:01:52.191572507+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:02:11.711251488+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:02:12.233658726+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:02:26.508282156+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:02:27.011849109+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:02:29.052804321+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:02:29.568234852+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:02:30.903194882+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:02:31.583171339+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:02:32.684095883+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:02:33.175571803+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:02:35.018357259+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:02:35.511048126+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:02:38.130718636+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:02:43.057924342+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:02:46.297643348+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:02:46.809574971+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:02:52.80904275+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:02:53.329353955+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-16T05:02:53.329400568+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-16T05:03:08.347860651+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-16T05:03:09.793916662+05:30","level":"INFO","msg":"stream: closing","id":"rv7u700w"}
+{"time":"2024-10-16T05:03:09.793958009+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"rv7u700w"}}
+{"time":"2024-10-16T05:03:09.793987682+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"rv7u700w"}}
+{"time":"2024-10-16T05:03:09.793994015+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"rv7u700w"}}
+{"time":"2024-10-16T05:03:09.794037913+05:30","level":"INFO","msg":"stream: closed","id":"rv7u700w"}

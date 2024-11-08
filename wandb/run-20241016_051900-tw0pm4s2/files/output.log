@@ -1,0 +1,6 @@
+##################################################
+	Fold: 1 | Model: deberta_v3_base_en
+	Batch Size: 3 | Scheduler: cosine
+	Num Train: 13810 | Num Valid: 3453
+##################################################
+INFO:tensorflow:Using MirroredStrategy with devices ('/job:localhost/replica:0/task:0/device:CPU:0',)

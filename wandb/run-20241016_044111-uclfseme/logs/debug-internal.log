@@ -1,0 +1,104 @@
+{"time":"2024-10-16T04:41:11.571301409+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-16T04:41:11.571334466+05:30","level":"INFO","msg":"created symlink","path":"/home/soumili202/Desktop/BTP/wandb/run-20241016_044111-uclfseme/logs/debug-core.log"}
+{"time":"2024-10-16T04:41:11.866307235+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-16T04:41:11.886062365+05:30","level":"INFO","msg":"created new stream","id":"uclfseme"}
+{"time":"2024-10-16T04:41:11.886113181+05:30","level":"INFO","msg":"stream: started","id":"uclfseme"}
+{"time":"2024-10-16T04:41:11.886243083+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"uclfseme"}}
+{"time":"2024-10-16T04:41:11.8864106+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"uclfseme"}}
+{"time":"2024-10-16T04:41:11.886762307+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"uclfseme"}}
+{"time":"2024-10-16T04:41:12.519324825+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-16T04:41:12.52077405+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-16T04:41:12.520850969+05:30","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2024-10-16T04:41:12.520921297+05:30","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2024-10-16T04:42:33.073962415+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:54:30.657323865+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:54:31.180025972+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:22.79496559+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:23.262052843+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:26.833111978+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:27.342251367+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:27.350828272+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:27.8415965+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:27.848614411+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:28.342756904+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:28.342781769+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:28.791651749+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:28.799377486+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:29.300166051+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:29.307873596+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:29.82353148+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:29.829923324+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:30.311664389+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:30.320095875+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:30.791300115+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:30.800603573+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:31.292131312+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:31.29890501+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:31.760690685+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:31.767832656+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:32.227028341+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:32.23408069+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:32.749673854+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:32.759263757+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:33.236338718+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:33.24356146+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:33.745381191+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:33.756183171+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:34.249708978+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:34.256938329+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:34.780767091+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:34.793800641+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:35.280628395+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:35.288666824+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:35.762876119+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:35.769249057+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:36.293198622+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:36.301534893+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:36.979051531+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:36.989260301+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:38.313392979+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:38.321563847+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:38.820617039+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:38.830555305+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:39.35163258+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:39.359218082+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:40.546734598+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:40.556505865+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:41.107162212+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:41.114022439+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:41.609276749+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:41.618611455+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:42.129888033+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:42.139234141+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:42.608962895+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:42.615760172+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:43.120674931+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:43.130756385+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:43.606777989+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:43.617796715+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:44.133845146+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:44.133878899+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:44.801805215+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:44.809574778+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:45.324878906+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:45.334071471+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:45.808069247+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:56:45.816411928+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:56:50.419731053+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:57:54.584127006+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:57:58.405392438+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:58:00.277731438+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:58:04.86270491+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:58:16.607136584+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:58:17.16105382+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:58:20.823061379+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:58:21.520971214+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T04:58:23.79551386+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T04:58:24.345660109+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-16T04:58:24.345726548+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-16T04:58:33.965690981+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-16T04:58:35.385194116+05:30","level":"INFO","msg":"stream: closing","id":"uclfseme"}
+{"time":"2024-10-16T04:58:35.385216549+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"uclfseme"}}
+{"time":"2024-10-16T04:58:35.385232522+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"uclfseme"}}
+{"time":"2024-10-16T04:58:35.385240874+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"uclfseme"}}
+{"time":"2024-10-16T04:58:35.385285331+05:30","level":"INFO","msg":"stream: closed","id":"uclfseme"}

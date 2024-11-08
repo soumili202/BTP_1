@@ -1,0 +1,7 @@
+##################################################
+	Fold: 1 | Model: deberta_v3_base_en
+	Batch Size: 3 | Scheduler: cosine
+	Num Train: 13810 | Num Valid: 3453
+##################################################
+Epoch 1/3
+Config: {'verbose': 0, 'wandb': True, '_wandb_kernel': 'awsaf49', 'comment': 'DebertaV3-MaxSeq_200-ext_s-torch', 'preset': 'deberta_v3_base_en', 'sequence_length': 200, 'device': 'CPU', 'seed': 42, 'num_folds': 5, 'selected_folds': [0, 1], 'epochs': 3, 'batch_size': 3, 'drop_remainder': True, 'cache': True, 'scheduler': 'cosine', 'class_names': ['real', 'fake'], 'num_classes': 2, 'class_labels': [0, 1], 'label2name': {0: 'real', 1: 'fake'}, 'name2label': {'real': 0, 'fake': 1}, 'replicas': 1, 'fold': 0}

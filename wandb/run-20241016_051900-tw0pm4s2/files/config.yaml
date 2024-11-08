@@ -1,0 +1,99 @@
+_wandb:
+    value:
+        cli_version: 0.18.3
+        m:
+            - "1": epoch/epoch
+              "6":
+                - 3
+              "7": []
+        python_version: 3.11.9
+        t:
+            "1":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 12
+                - 49
+                - 53
+                - 55
+                - 102
+            "2":
+                - 1
+                - 2
+                - 3
+                - 5
+                - 12
+                - 49
+                - 53
+                - 55
+                - 102
+            "3":
+                - 2
+                - 7
+                - 13
+                - 16
+                - 23
+                - 38
+                - 55
+            "4": 3.11.9
+            "5": 0.18.3
+            "8":
+                - 1
+                - 5
+            "12": 0.18.3
+            "13": linux-x86_64
+_wandb_kernel:
+    value: awsaf49
+batch_size:
+    value: 3
+cache:
+    value: true
+class_labels:
+    value:
+        - 0
+        - 1
+class_names:
+    value:
+        - real
+        - fake
+comment:
+    value: DebertaV3-MaxSeq_200-ext_s-torch
+device:
+    value: CPU
+drop_remainder:
+    value: true
+epochs:
+    value: 3
+fold:
+    value: 0
+label2name:
+    value:
+        "0": real
+        "1": fake
+name2label:
+    value:
+        fake: 1
+        real: 0
+num_classes:
+    value: 2
+num_folds:
+    value: 5
+preset:
+    value: deberta_v3_base_en
+replicas:
+    value: 1
+scheduler:
+    value: cosine
+seed:
+    value: 42
+selected_folds:
+    value:
+        - 0
+        - 1
+sequence_length:
+    value: 200
+verbose:
+    value: 0
+wandb:
+    value: true

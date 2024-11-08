@@ -1,0 +1,66 @@
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Configure stats pid to 20609
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Loading settings from /home/soumili202/.config/wandb/settings
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Loading settings from /home/soumili202/Desktop/BTP/wandb/settings
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_init.py:_log_setup():532] Logging user logs to /home/soumili202/Desktop/BTP/wandb/run-20241016_051900-tw0pm4s2/logs/debug.log
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_init.py:_log_setup():533] Logging internal logs to /home/soumili202/Desktop/BTP/wandb/run-20241016_051900-tw0pm4s2/logs/debug-internal.log
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_init.py:_jupyter_setup():478] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7d2d0b902310>
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_init.py:init():617] calling init triggers
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'verbose': 0, 'wandb': True, '_wandb_kernel': 'awsaf49', 'comment': 'DebertaV3-MaxSeq_200-ext_s-torch', 'preset': 'deberta_v3_base_en', 'sequence_length': 200, 'device': 'CPU', 'seed': 42, 'num_folds': 5, 'selected_folds': [0, 1], 'epochs': 3, 'batch_size': 3, 'drop_remainder': True, 'cache': True, 'scheduler': 'cosine', 'class_names': ['real', 'fake'], 'num_classes': 2, 'class_labels': [0, 1], 'label2name': {0: 'real', 1: 'fake'}, 'name2label': {'real': 0, 'fake': 1}, 'replicas': 1, 'fold': 0}
+2024-10-16 05:19:00,382 INFO    MainThread:20609 [wandb_init.py:init():642] re-initializing run, found existing run on stack: uqcinxed
+2024-10-16 05:19:00,384 INFO    MainThread:20609 [wandb_run.py:_finish():2164] finishing run soumilirupsa2020-iit-kharagpur/llm-fake-text/uqcinxed
+2024-10-16 05:19:00,384 INFO    MainThread:20609 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-16 05:19:00,384 INFO    MainThread:20609 [wandb_run.py:_restore():2410] restore
+2024-10-16 05:19:00,384 INFO    MainThread:20609 [wandb_run.py:_restore():2416] restore done
+2024-10-16 05:19:04,482 INFO    MainThread:20609 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-16 05:19:04,483 INFO    MainThread:20609 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-16 05:19:04,486 INFO    MainThread:20609 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-16 05:19:04,669 INFO    MainThread:20609 [wandb_init.py:init():667] starting backend
+2024-10-16 05:19:04,669 INFO    MainThread:20609 [wandb_init.py:init():671] sending inform_init request
+2024-10-16 05:19:04,670 INFO    MainThread:20609 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-16 05:19:04,670 INFO    MainThread:20609 [wandb_init.py:init():684] backend started and connected
+2024-10-16 05:19:04,672 INFO    MainThread:20609 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-16 05:19:04,673 INFO    MainThread:20609 [wandb_init.py:init():779] updated telemetry
+2024-10-16 05:19:04,673 INFO    MainThread:20609 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-16 05:19:05,136 INFO    MainThread:20609 [wandb_init.py:init():863] starting run threads in backend
+2024-10-16 05:19:05,213 INFO    MainThread:20609 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-16 05:19:05,213 INFO    MainThread:20609 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-16 05:19:05,214 INFO    MainThread:20609 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-16 05:19:05,214 INFO    MainThread:20609 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-16 05:19:05,214 INFO    MainThread:20609 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-16 05:19:09,058 INFO    MainThread:20609 [jupyter.py:_save_ipynb():398] looking for notebook: /home/soumili202/Desktop/BTP/Detect_Fake_Text.ipynb
+2024-10-16 05:19:09,487 INFO    MainThread:20609 [wandb_init.py:_pause_backend():441] saved code: <Artifact source-llm-fake-text-_home_soumili202_Desktop_BTP_Detect_Fake_Text.ipynb>
+2024-10-16 05:19:09,487 INFO    MainThread:20609 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-16 05:22:38,055 INFO    MainThread:20609 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Configure stats pid to 20609
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Loading settings from /home/soumili202/.config/wandb/settings
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Loading settings from /home/soumili202/Desktop/BTP/wandb/settings
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_init.py:_log_setup():532] Logging user logs to /home/soumili202/Desktop/BTP/wandb/run-20241016_052238-qxk5dpa7/logs/debug.log
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_init.py:_log_setup():533] Logging internal logs to /home/soumili202/Desktop/BTP/wandb/run-20241016_052238-qxk5dpa7/logs/debug-internal.log
+2024-10-16 05:22:38,075 INFO    MainThread:20609 [wandb_init.py:init():617] calling init triggers
+2024-10-16 05:22:38,075 INFO    MainThread:20609 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'__module__': '__main__', 'selected_folds': [0, 1, 2, 3, 4], 'wandb': True, 'preset': 'deberta_v3_large', 'batch_size': 32, 'replicas': 2, 'scheduler': 'cosine', 'epochs': 10, '__dict__': <attribute '__dict__' of 'CFG' objects>, '__weakref__': <attribute '__weakref__' of 'CFG' objects>, '__doc__': None}
+2024-10-16 05:22:38,075 INFO    MainThread:20609 [wandb_init.py:init():642] re-initializing run, found existing run on stack: tw0pm4s2
+2024-10-16 05:22:38,076 INFO    MainThread:20609 [wandb_run.py:_finish():2164] finishing run soumilirupsa2020-iit-kharagpur/llm-fake-text/tw0pm4s2
+2024-10-16 05:22:38,076 ERROR   MainThread:20609 [jupyter.py:save_history():451] Run pip install nbformat to save notebook history
+2024-10-16 05:22:38,077 INFO    MainThread:20609 [jupyter.py:_save_ipynb():398] looking for notebook: /home/soumili202/Desktop/BTP/Detect_Fake_Text.ipynb
+2024-10-16 05:22:38,510 INFO    MainThread:20609 [wandb_init.py:_jupyter_teardown():459] saved code and history: <Artifact source-llm-fake-text-_home_soumili202_Desktop_BTP_Detect_Fake_Text.ipynb>
+2024-10-16 05:22:38,510 INFO    MainThread:20609 [wandb_init.py:_jupyter_teardown():460] cleaning up jupyter logic
+2024-10-16 05:22:38,510 INFO    MainThread:20609 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-16 05:22:38,510 INFO    MainThread:20609 [wandb_run.py:_restore():2410] restore
+2024-10-16 05:22:38,510 INFO    MainThread:20609 [wandb_run.py:_restore():2416] restore done
+2024-10-16 05:22:47,525 INFO    MainThread:20609 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-16 05:22:47,525 INFO    MainThread:20609 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-16 05:22:47,528 INFO    MainThread:20609 [wandb_run.py:_footer_sync_info():4008] logging synced files

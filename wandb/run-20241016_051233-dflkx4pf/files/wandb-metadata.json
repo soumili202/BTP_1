@@ -1,0 +1,27 @@
+{
+  "os":  "Linux-6.8.0-45-generic-x86_64-with-glibc2.35",
+  "python":  "3.11.9",
+  "startedAt":  "2024-10-15T23:42:33.273695Z",
+  "program":  "/home/soumili202/Desktop/BTP/Detect_Fake_Text.ipynb",
+  "email":  "soumilirupsa2020@gmail.com",
+  "root":  "/home/soumili202/Desktop/BTP",
+  "host":  "soumili202-HP-Pavilion-x360-Convertible-14-dy0xxx",
+  "username":  "soumili202",
+  "executable":  "/home/soumili202/miniconda3/bin/python",
+  "codePathLocal":  "Detect_Fake_Text.ipynb",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "83068657664",
+      "used":  "32506322944"
+    }
+  },
+  "memory":  {
+    "total":  "16527994880"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

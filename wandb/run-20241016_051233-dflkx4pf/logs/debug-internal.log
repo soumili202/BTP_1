@@ -1,0 +1,30 @@
+{"time":"2024-10-16T05:12:33.275138866+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-16T05:12:33.275149989+05:30","level":"INFO","msg":"created symlink","path":"/home/soumili202/Desktop/BTP/wandb/run-20241016_051233-dflkx4pf/logs/debug-core.log"}
+{"time":"2024-10-16T05:12:33.450774006+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-16T05:12:33.453312719+05:30","level":"INFO","msg":"created new stream","id":"dflkx4pf"}
+{"time":"2024-10-16T05:12:33.453334734+05:30","level":"INFO","msg":"stream: started","id":"dflkx4pf"}
+{"time":"2024-10-16T05:12:33.453341697+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"dflkx4pf"}}
+{"time":"2024-10-16T05:12:33.453359069+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"dflkx4pf"}}
+{"time":"2024-10-16T05:12:33.453355293+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"dflkx4pf"}}
+{"time":"2024-10-16T05:12:34.045177822+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-16T05:12:34.045629631+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-16T05:12:34.045642942+05:30","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2024-10-16T05:12:34.045666886+05:30","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2024-10-16T05:12:42.038729492+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:13:41.885621432+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:13:42.358993626+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:13:43.567696537+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:13:47.432758193+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:13:48.659785512+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:13:49.125841741+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:13:51.656847493+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:13:52.843213994+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:13:55.529359371+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:13:55.996518949+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-16T05:13:55.996599834+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-16T05:14:05.302158996+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-16T05:14:06.71823682+05:30","level":"INFO","msg":"stream: closing","id":"dflkx4pf"}
+{"time":"2024-10-16T05:14:06.718253075+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"dflkx4pf"}}
+{"time":"2024-10-16T05:14:06.718277178+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"dflkx4pf"}}
+{"time":"2024-10-16T05:14:06.718282074+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"dflkx4pf"}}
+{"time":"2024-10-16T05:14:06.718323371+05:30","level":"INFO","msg":"stream: closed","id":"dflkx4pf"}

@@ -1,0 +1,22 @@
+{"time":"2024-10-16T05:19:04.6703366+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-16T05:19:04.670352226+05:30","level":"INFO","msg":"created symlink","path":"/home/soumili202/Desktop/BTP/wandb/run-20241016_051900-tw0pm4s2/logs/debug-core.log"}
+{"time":"2024-10-16T05:19:04.670433867+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-16T05:19:04.67248638+05:30","level":"INFO","msg":"created new stream","id":"tw0pm4s2"}
+{"time":"2024-10-16T05:19:04.672507536+05:30","level":"INFO","msg":"stream: started","id":"tw0pm4s2"}
+{"time":"2024-10-16T05:19:04.672528642+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"tw0pm4s2"}}
+{"time":"2024-10-16T05:19:04.672553435+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"tw0pm4s2"}}
+{"time":"2024-10-16T05:19:04.672614725+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"tw0pm4s2"}}
+{"time":"2024-10-16T05:19:05.138406239+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-16T05:19:05.138749791+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-16T05:19:05.138767764+05:30","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2024-10-16T05:19:05.138789449+05:30","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2024-10-16T05:19:09.487395927+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-16T05:22:38.055561687+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-16T05:22:38.510669053+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-16T05:22:38.510720137+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-16T05:22:46.07620449+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-16T05:22:47.530199475+05:30","level":"INFO","msg":"stream: closing","id":"tw0pm4s2"}
+{"time":"2024-10-16T05:22:47.530217393+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"tw0pm4s2"}}
+{"time":"2024-10-16T05:22:47.530237866+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"tw0pm4s2"}}
+{"time":"2024-10-16T05:22:47.530237436+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"tw0pm4s2"}}
+{"time":"2024-10-16T05:22:47.530323023+05:30","level":"INFO","msg":"stream: closed","id":"tw0pm4s2"}

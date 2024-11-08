@@ -1,0 +1,62 @@
+2024-10-16 04:58:23,817 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-16 04:58:23,818 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Configure stats pid to 16728
+2024-10-16 04:58:23,818 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Loading settings from /home/soumili202/.config/wandb/settings
+2024-10-16 04:58:23,818 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Loading settings from /home/soumili202/Desktop/BTP/wandb/settings
+2024-10-16 04:58:23,818 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-16 04:58:23,818 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-16 04:58:23,818 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Applying login settings: {'anonymous': 'must'}
+2024-10-16 04:58:23,818 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-16 04:58:23,818 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-16 04:58:23,819 INFO    MainThread:16728 [wandb_init.py:_log_setup():532] Logging user logs to /home/soumili202/Desktop/BTP/wandb/run-20241016_045823-jc177mgn/logs/debug.log
+2024-10-16 04:58:23,819 INFO    MainThread:16728 [wandb_init.py:_log_setup():533] Logging internal logs to /home/soumili202/Desktop/BTP/wandb/run-20241016_045823-jc177mgn/logs/debug-internal.log
+2024-10-16 04:58:23,819 INFO    MainThread:16728 [wandb_init.py:init():617] calling init triggers
+2024-10-16 04:58:23,819 INFO    MainThread:16728 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'verbose': 0, 'wandb': True, '_wandb_kernel': 'awsaf49', 'comment': 'DebertaV3-MaxSeq_200-ext_s-torch', 'preset': 'deberta_v3_base_en', 'sequence_length': 200, 'device': 'CPU', 'seed': 42, 'num_folds': 5, 'selected_folds': [0, 1], 'epochs': 3, 'batch_size': 3, 'drop_remainder': True, 'cache': True, 'scheduler': 'cosine', 'class_names': ['real', 'fake'], 'num_classes': 2, 'class_labels': [0, 1], 'label2name': {0: 'real', 1: 'fake'}, 'name2label': {'real': 0, 'fake': 1}, 'replicas': 1, 'fold': 0}
+2024-10-16 04:58:23,819 INFO    MainThread:16728 [wandb_init.py:init():642] re-initializing run, found existing run on stack: uclfseme
+2024-10-16 04:58:23,821 INFO    MainThread:16728 [wandb_run.py:_finish():2164] finishing run anony-mouse-319812621250491530/llm-fake-text/uclfseme
+2024-10-16 04:58:23,822 ERROR   MainThread:16728 [jupyter.py:save_history():451] Run pip install nbformat to save notebook history
+2024-10-16 04:58:23,823 INFO    MainThread:16728 [jupyter.py:_save_ipynb():398] looking for notebook: /home/soumili202/Desktop/BTP/Detect_Fake_Text.ipynb
+2024-10-16 04:58:24,344 INFO    MainThread:16728 [wandb_init.py:_jupyter_teardown():459] saved code and history: <Artifact source-llm-fake-text-_home_soumili202_Desktop_BTP_Detect_Fake_Text.ipynb>
+2024-10-16 04:58:24,344 INFO    MainThread:16728 [wandb_init.py:_jupyter_teardown():460] cleaning up jupyter logic
+2024-10-16 04:58:24,344 INFO    MainThread:16728 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-16 04:58:24,344 INFO    MainThread:16728 [wandb_run.py:_restore():2410] restore
+2024-10-16 04:58:24,345 INFO    MainThread:16728 [wandb_run.py:_restore():2416] restore done
+2024-10-16 04:58:35,374 INFO    MainThread:16728 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-16 04:58:35,374 INFO    MainThread:16728 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-16 04:58:35,380 INFO    MainThread:16728 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-16 04:58:35,767 INFO    MainThread:16728 [wandb_init.py:init():667] starting backend
+2024-10-16 04:58:35,768 INFO    MainThread:16728 [wandb_init.py:init():671] sending inform_init request
+2024-10-16 04:58:35,771 INFO    MainThread:16728 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-16 04:58:35,772 INFO    MainThread:16728 [wandb_init.py:init():684] backend started and connected
+2024-10-16 04:58:35,777 INFO    MainThread:16728 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-16 04:58:35,778 INFO    MainThread:16728 [wandb_init.py:init():779] updated telemetry
+2024-10-16 04:58:35,779 INFO    MainThread:16728 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-16 04:58:36,241 INFO    MainThread:16728 [wandb_init.py:init():863] starting run threads in backend
+2024-10-16 04:58:36,490 INFO    MainThread:16728 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-16 04:58:36,491 INFO    MainThread:16728 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-16 04:58:36,491 INFO    MainThread:16728 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-16 04:58:36,491 INFO    MainThread:16728 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-16 04:58:36,491 INFO    MainThread:16728 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-16 04:59:58,857 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-16 04:59:58,857 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Configure stats pid to 16728
+2024-10-16 04:59:58,857 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Loading settings from /home/soumili202/.config/wandb/settings
+2024-10-16 04:59:58,857 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Loading settings from /home/soumili202/Desktop/BTP/wandb/settings
+2024-10-16 04:59:58,858 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-16 04:59:58,858 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-16 04:59:58,858 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Applying login settings: {'anonymous': 'must'}
+2024-10-16 04:59:58,858 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-16 04:59:58,858 INFO    MainThread:16728 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-16 04:59:58,858 INFO    MainThread:16728 [wandb_init.py:_log_setup():532] Logging user logs to /home/soumili202/Desktop/BTP/wandb/run-20241016_045958-rv7u700w/logs/debug.log
+2024-10-16 04:59:58,858 INFO    MainThread:16728 [wandb_init.py:_log_setup():533] Logging internal logs to /home/soumili202/Desktop/BTP/wandb/run-20241016_045958-rv7u700w/logs/debug-internal.log
+2024-10-16 04:59:58,858 INFO    MainThread:16728 [wandb_init.py:_jupyter_setup():478] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x727b4c220a50>
+2024-10-16 04:59:58,859 INFO    MainThread:16728 [wandb_init.py:init():617] calling init triggers
+2024-10-16 04:59:58,859 INFO    MainThread:16728 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'verbose': 0, 'wandb': True, '_wandb_kernel': 'awsaf49', 'comment': 'DebertaV3-MaxSeq_200-ext_s-torch', 'preset': 'deberta_v3_base_en', 'sequence_length': 200, 'device': 'CPU', 'seed': 42, 'num_folds': 5, 'selected_folds': [0, 1], 'epochs': 3, 'batch_size': 3, 'drop_remainder': True, 'cache': True, 'scheduler': 'cosine', 'class_names': ['real', 'fake'], 'num_classes': 2, 'class_labels': [0, 1], 'label2name': {0: 'real', 1: 'fake'}, 'name2label': {'real': 0, 'fake': 1}, 'replicas': 1, 'fold': 0}
+2024-10-16 04:59:58,859 INFO    MainThread:16728 [wandb_init.py:init():642] re-initializing run, found existing run on stack: jc177mgn
+2024-10-16 04:59:58,861 INFO    MainThread:16728 [wandb_run.py:_finish():2164] finishing run anony-mouse-319812621250491530/llm-fake-text/jc177mgn
+2024-10-16 04:59:58,862 INFO    MainThread:16728 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-16 04:59:58,862 INFO    MainThread:16728 [wandb_run.py:_restore():2410] restore
+2024-10-16 04:59:58,863 INFO    MainThread:16728 [wandb_run.py:_restore():2416] restore done
+2024-10-16 05:00:02,937 INFO    MainThread:16728 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-16 05:00:02,937 INFO    MainThread:16728 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-16 05:00:02,944 INFO    MainThread:16728 [wandb_run.py:_footer_sync_info():4008] logging synced files

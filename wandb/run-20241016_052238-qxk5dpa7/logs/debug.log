@@ -1,0 +1,124 @@
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Configure stats pid to 20609
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Loading settings from /home/soumili202/.config/wandb/settings
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Loading settings from /home/soumili202/Desktop/BTP/wandb/settings
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_init.py:_log_setup():532] Logging user logs to /home/soumili202/Desktop/BTP/wandb/run-20241016_052238-qxk5dpa7/logs/debug.log
+2024-10-16 05:22:38,074 INFO    MainThread:20609 [wandb_init.py:_log_setup():533] Logging internal logs to /home/soumili202/Desktop/BTP/wandb/run-20241016_052238-qxk5dpa7/logs/debug-internal.log
+2024-10-16 05:22:38,075 INFO    MainThread:20609 [wandb_init.py:init():617] calling init triggers
+2024-10-16 05:22:38,075 INFO    MainThread:20609 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'__module__': '__main__', 'selected_folds': [0, 1, 2, 3, 4], 'wandb': True, 'preset': 'deberta_v3_large', 'batch_size': 32, 'replicas': 2, 'scheduler': 'cosine', 'epochs': 10, '__dict__': <attribute '__dict__' of 'CFG' objects>, '__weakref__': <attribute '__weakref__' of 'CFG' objects>, '__doc__': None}
+2024-10-16 05:22:38,075 INFO    MainThread:20609 [wandb_init.py:init():642] re-initializing run, found existing run on stack: tw0pm4s2
+2024-10-16 05:22:38,076 INFO    MainThread:20609 [wandb_run.py:_finish():2164] finishing run soumilirupsa2020-iit-kharagpur/llm-fake-text/tw0pm4s2
+2024-10-16 05:22:38,076 ERROR   MainThread:20609 [jupyter.py:save_history():451] Run pip install nbformat to save notebook history
+2024-10-16 05:22:38,077 INFO    MainThread:20609 [jupyter.py:_save_ipynb():398] looking for notebook: /home/soumili202/Desktop/BTP/Detect_Fake_Text.ipynb
+2024-10-16 05:22:38,510 INFO    MainThread:20609 [wandb_init.py:_jupyter_teardown():459] saved code and history: <Artifact source-llm-fake-text-_home_soumili202_Desktop_BTP_Detect_Fake_Text.ipynb>
+2024-10-16 05:22:38,510 INFO    MainThread:20609 [wandb_init.py:_jupyter_teardown():460] cleaning up jupyter logic
+2024-10-16 05:22:38,510 INFO    MainThread:20609 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-16 05:22:38,510 INFO    MainThread:20609 [wandb_run.py:_restore():2410] restore
+2024-10-16 05:22:38,510 INFO    MainThread:20609 [wandb_run.py:_restore():2416] restore done
+2024-10-16 05:22:47,525 INFO    MainThread:20609 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-16 05:22:47,525 INFO    MainThread:20609 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-16 05:22:47,528 INFO    MainThread:20609 [wandb_run.py:_footer_sync_info():4008] logging synced files
+2024-10-16 05:22:47,710 INFO    MainThread:20609 [wandb_init.py:init():667] starting backend
+2024-10-16 05:22:47,710 INFO    MainThread:20609 [wandb_init.py:init():671] sending inform_init request
+2024-10-16 05:22:47,711 INFO    MainThread:20609 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-16 05:22:47,711 INFO    MainThread:20609 [wandb_init.py:init():684] backend started and connected
+2024-10-16 05:22:47,713 INFO    MainThread:20609 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-16 05:22:47,714 INFO    MainThread:20609 [wandb_init.py:init():779] updated telemetry
+2024-10-16 05:22:47,714 INFO    MainThread:20609 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-16 05:22:47,714 ERROR   MainThread:20609 [wandb_init.py:init():1262] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1252, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 814, in init
+    run_init_handle = backend.interface.deliver_run(run)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 843, in deliver_run
+    run_record = self._make_run(run)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 157, in _make_run
+    self._make_config(data=config_dict, obj=proto_run.config)
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 139, in _make_config
+    update.value_json = json_dumps_safer(json_friendly(v)[0])
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/util.py", line 831, in json_dumps_safer
+    return dumps(obj, cls=WandBJSONEncoder, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/util.py", line 782, in default
+    return json.JSONEncoder.default(self, obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type getset_descriptor is not JSON serializable
+2024-10-16 05:25:15,099 INFO    MainThread:20609 [wandb_settings.py:_apply_login():1970] Applying login settings: {}
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Configure stats pid to 20609
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Loading settings from /home/soumili202/.config/wandb/settings
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Loading settings from /home/soumili202/Desktop/BTP/wandb/settings
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_init.py:_log_setup():532] Logging user logs to /home/soumili202/Desktop/BTP/wandb/run-20241016_052515-4fmuy38a/logs/debug.log
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_init.py:_log_setup():533] Logging internal logs to /home/soumili202/Desktop/BTP/wandb/run-20241016_052515-4fmuy38a/logs/debug-internal.log
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_init.py:_jupyter_setup():478] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7d2d0a9575d0>
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_init.py:init():617] calling init triggers
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'__module__': '__main__', 'selected_folds': [0, 1, 2, 3, 4], 'wandb': True, 'preset': 'deberta_v3_large', 'batch_size': 32, 'replicas': 2, 'scheduler': 'cosine', 'epochs': 10, '__dict__': <attribute '__dict__' of 'CFG' objects>, '__weakref__': <attribute '__weakref__' of 'CFG' objects>, '__doc__': None}
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_init.py:init():667] starting backend
+2024-10-16 05:25:15,103 INFO    MainThread:20609 [wandb_init.py:init():671] sending inform_init request
+2024-10-16 05:25:15,104 INFO    MainThread:20609 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-16 05:25:15,104 INFO    MainThread:20609 [wandb_init.py:init():684] backend started and connected
+2024-10-16 05:25:15,108 INFO    MainThread:20609 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-16 05:25:15,108 INFO    MainThread:20609 [wandb_init.py:init():779] updated telemetry
+2024-10-16 05:25:15,109 INFO    MainThread:20609 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-16 05:25:15,109 ERROR   MainThread:20609 [wandb_init.py:init():1262] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1252, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 814, in init
+    run_init_handle = backend.interface.deliver_run(run)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 843, in deliver_run
+    run_record = self._make_run(run)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 157, in _make_run
+    self._make_config(data=config_dict, obj=proto_run.config)
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 139, in _make_config
+    update.value_json = json_dumps_safer(json_friendly(v)[0])
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/util.py", line 831, in json_dumps_safer
+    return dumps(obj, cls=WandBJSONEncoder, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/site-packages/wandb/util.py", line 782, in default
+    return json.JSONEncoder.default(self, obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soumili202/miniconda3/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type getset_descriptor is not JSON serializable
